@@ -1,32 +1,71 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <v-main>
+      <router-view />
+    </v-main>
+    <Footer />
+  </v-app>
 </template>
 
+<script>
+import Footer from "@/components/Footer.vue";
+
+export default {
+  name: "App",
+
+  components: {
+    Footer
+  },
+
+  data: () => ({
+    //
+  })
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("https://www.zerorezsavannah.com/wp-content/uploads/air-duct-cleaning.jpg");
+  margin-top: -4em;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#nav {
-  padding: 30px;
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.intro {
+  padding-top: 6em;
+}
+.intro h5 {
+  text-transform: uppercase;
+}
+.upper-border {
+  border-top: solid #333;
+}
+.upper-border-white {
+  border-top: solid #fff;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+#services {
+  padding-top: 2em;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@media only screen and (max-width: 960px) {
+  .left-img {
+    display: none;
+  }
 }
 </style>
