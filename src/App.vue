@@ -29,12 +29,14 @@ export default {
     url("https://www.zerorezsavannah.com/wp-content/uploads/air-duct-cleaning.jpg");
   margin-top: -4em;
   padding-top: 10em;
-  padding-bottom: 10em;
+  padding-bottom: 6em;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }

@@ -1,17 +1,17 @@
 <template>
-  <v-container class="pb-15">
+  <v-container class="pb-15" id="contact">
     <v-row class="intro pb-8 pt-10">
       <v-col cols="12" md="6">
         <h1>Where to find us!</h1>
         <p>
-          Active Air Duct Cleaning is proud to service the Spokane, Washington
-          area. Use the form to contact us today!
+          Active Air Duct Cleaning is proud to service the Bend, Oregon area.
+          Use the form to contact us today!
         </p>
-        <h4>Spokane, Washington</h4>
+        <h4>Bend, Oregon</h4>
         <p>
-          620 W Persimmon Lane <br />
-          Spokane, WA 99224 <br />
-          Office: (541) 408-6001
+          63410 Cimerron Dr. <br />
+          Bend, OR 97701 <br />
+          Office: (509) 542-7761
         </p>
       </v-col>
       <v-col cols="12" md="6">

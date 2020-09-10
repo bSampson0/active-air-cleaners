@@ -7,7 +7,7 @@
             Bend, <span class="upper-border">Oregon</span>
           </h3>
           <h1 class="white--text">Duct Cleaning Professionals</h1>
-          <p class="pt-3 pb-3 white--text" style="font-size: 20px;">
+          <p class="pt-3 pb-2 white--text" style="font-size: 20px;">
             Are you looking for the best duct cleaning services in Bend, OR?
             Active Air Cleaners is an industry leader in providing exceptional
             customer service at every stage of your experience, from answering
@@ -16,7 +16,7 @@
             work we perform. We’re passionate about what we do – and it shows,
             every single time.
           </p>
-          <v-btn color="primary" href="#services">Contact Us</v-btn>
+          <v-btn color="primary" href="#contact">Contact Us</v-btn>
         </v-col>
       </v-row>
     </v-container>

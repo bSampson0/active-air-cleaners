@@ -1,5 +1,5 @@
 <template>
-  <v-footer absolute class="font-weight-medium">
+  <v-footer absolute class="font-weight-medium" color="#eee">
     <v-col class="text-center" cols="12">
       2020 — <strong>Active Air Cleaners</strong>
     </v-col>
